@@ -4,7 +4,7 @@ import java. awt.Color;
 import javax.swing.JPanel;
 //import javafx.scene.paint.Color;
 
-public class PanelEntradaDatos extends JPanel
+public class PanelEntradaDatos2 extends JPanel
 {
     //----------
     // Atributos
@@ -15,10 +15,11 @@ public class PanelEntradaDatos extends JPanel
     //----------
     
     /**Metodo constructor */
-    public PanelEntradaDatos()
+    public PanelEntradaDatos2()
     {
         // Definir contenedor del panel
         this.setLayout(null);
-        this.setBackground(Color.YELLOW);
+        this.setBackground(Color.BLUE);
     }
 }
+

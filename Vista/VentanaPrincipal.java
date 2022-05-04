@@ -8,6 +8,8 @@ public class VentanaPrincipal extends JFrame
     // Atributos
     // ---------
     public PanelEntradaDatos miPanelEntradaDatos;
+    public PanelEntradaDatos2 miPanelEntradaDatos2;
+    public PanelEntradaDatos3 miPanelEntradaDatos3;
 
     //--------
     // Metodos
@@ -21,8 +23,16 @@ public class VentanaPrincipal extends JFrame
 
         //Crear y agregar el PanelEntradaDatos
         miPanelEntradaDatos = new PanelEntradaDatos();
-        miPanelEntradaDatos.setBounds(10,10,480,200);
+        miPanelEntradaDatos.setBounds(10,10,476,160);
         this.add(miPanelEntradaDatos);
+
+        miPanelEntradaDatos2 = new PanelEntradaDatos2();
+        miPanelEntradaDatos2.setBounds(10,150,476,160);
+        this.add(miPanelEntradaDatos2);
+
+        miPanelEntradaDatos3 = new PanelEntradaDatos3();
+        miPanelEntradaDatos3.setBounds(10,300,476,160);
+        this.add(miPanelEntradaDatos3);
 
 
         // Caracteristicas de la ventana
