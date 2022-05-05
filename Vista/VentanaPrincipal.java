@@ -8,8 +8,8 @@ public class VentanaPrincipal extends JFrame
     // Atributos
     // ---------
     public PanelEntradaDatos miPanelEntradaDatos;
-    public PanelEntradaDatos2 miPanelEntradaDatos2;
-    public PanelEntradaDatos3 miPanelEntradaDatos3;
+    public PanelOperaciones miPanelOperaciones;
+    public PanelResultados miPanelResultados;
 
     //--------
     // Metodos
@@ -26,18 +26,18 @@ public class VentanaPrincipal extends JFrame
         miPanelEntradaDatos.setBounds(10,10,476,160);
         this.add(miPanelEntradaDatos);
 
-        miPanelEntradaDatos2 = new PanelEntradaDatos2();
-        miPanelEntradaDatos2.setBounds(10,150,476,160);
-        this.add(miPanelEntradaDatos2);
+        miPanelOperaciones = new PanelOperaciones();
+        miPanelOperaciones.setBounds(10,170,476,160);
+        this.add(miPanelOperaciones);
 
-        miPanelEntradaDatos3 = new PanelEntradaDatos3();
-        miPanelEntradaDatos3.setBounds(10,300,476,160);
-        this.add(miPanelEntradaDatos3);
+        miPanelResultados = new PanelResultados();
+        miPanelResultados.setBounds(10,327,476,160);
+        this.add(miPanelResultados);
 
 
         // Caracteristicas de la ventana
         this.setTitle("Mayor de 2 enteros");
-        this.setSize(500,500);
+        this.setSize(500,530);
         //this.setLocation(100,100);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
